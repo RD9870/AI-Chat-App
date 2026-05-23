@@ -6,16 +6,17 @@ String baseUrl = "http://10.122.109.127:8000/api";
 
 // ------------------- COLORS CONSTS -------------------
 
-const Color primaryColor = Color(0xfff16872);
-const Color secondaryColor = Color(0xff2a255f);
+// const Color primaryColor = Color(0xff);
+// const Color secondaryColor = Color(0xff2a255f);
 
-const Color whiteColor = Color(0xffEAF1FF);
-const Color blackColor = Color(0xff000C23);
+// const Color whiteColor = Color(0xffEAF1FF);
+// const Color blackColor = Color(0xff000C23);
 
-const Color recivedIconColor = Color(0xff9E3996);
-const Color recivedIconBackground = Color(0xffCC96C7);
-const Color recivedIconBackgroundShadow = Color(0xffAB1E9F);
-const Color recivedMoneyColor = Color(0xff63F058);
+const Color bubleBorderColor = Color(0xff616161);
+const Color userBubleTextColor = Color(0x8A000000);
+const Color userBubleBackgroundColor = Color(0x00000000);
+const Color reciverBubleTextColor = Color(0xffffffff);
+const Color reciverBubleBackgroundColor = Color.fromARGB(255, 99, 91, 98);
 
 const Color transferIconColor = Color(0xffF40C1F);
 const Color transferIconBackground = Color(0xffCC96C7);

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:v_wallet_frontend/widgets/statics/chat_bubble.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -67,11 +68,13 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         children: [
           Expanded(
-            child: Center(
-              child: Text(
-                "Current Chat Here",
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-              ),
+            child: ListView(
+              children: [
+                // TODO Make the chat messages list dynamic
+                ChatBubble(isUser: true),
+                ChatBubble(isUser: false),
+                ChatBubble(isUser: true),
+              ],
             ),
           ),
           Padding(
