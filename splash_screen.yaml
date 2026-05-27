@@ -1,12 +1,12 @@
-flutter_native_splash:
-  android: true
-  ios: true
-  web: false
-  color: "#E3F2FD"
-  image: assets/icons/chatbot icon.png
-  branding: assets/icons/brand-image.png
+# flutter_native_splash:
+#   android: true
+#   ios: true
+#   web: false
+#   color: "#E3F2FD"
+#   image: assets/icons/chatbot icon.png
+#   branding: assets/icons/brand-image.png
 
-  android_12:
-  color: "#E3F2FD"
-  image: assets/icons/chatbot icon.png
-  branding: assets/icons/brand-image.png
+#   android_12:
+#   color: "#E3F2FD"
+#   image: assets/icons/chatbot icon.png
+#   branding: assets/icons/brand-image.png

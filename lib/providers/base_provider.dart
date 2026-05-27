@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:v_wallet_frontend/services/api.dart';
+import 'package:ai_chat_app/services/api.dart';
 
 class BaseProvider with ChangeNotifier {
   // loading indicator variable, api instance, failing variable and error mesage variable

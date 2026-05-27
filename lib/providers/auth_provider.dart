@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:v_wallet_frontend/providers/base_provider.dart';
+import 'package:ai_chat_app/providers/base_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:v_wallet_frontend/services/connectivity_services.dart';
+import 'package:ai_chat_app/services/connectivity_services.dart';
 
 // authantication cases
 enum AuthStatus {

@@ -1,4 +1,4 @@
-package com.example.v_wallet_frontend
+package com.example.ai_chat_app
 
 import io.flutter.embedding.android.FlutterActivity
 

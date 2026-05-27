@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:toastification/toastification.dart';
-// import 'package:v_wallet_frontend/screens/handeling_screens/splash_screen.dart';
+// import 'package:ai_chat_app/screens/handeling_screens/splash_screen.dart';
 import 'screens/main_screens/home_Screen.dart';
 
 void main() {
